@@ -70,6 +70,16 @@ const swiper = new Swiper('.swiper', {
     nextEl: '.swiper-button-next',
     prevEl: '.swiper-button-prev',
   },
+  breakpoints: {
+    // mobile + tablet - 320-990
+    320: {
+      slidesPerView: 1
+    },
+    // desktop >= 991
+    991: {
+      slidesPerView: 2
+    }
+  }
  
 });
 
