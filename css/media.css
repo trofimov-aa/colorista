@@ -48,13 +48,17 @@
     }
     .navbar {
         position: absolute;
-        left: -300px;
+        left: -310px;
         top: 0;
         background-color: var(--color-accent);
         color: white;
         padding: 50px 20px 20px 20px;
         width: 300px;
         transition: transform .5s;
+        border-radius: 0 10px 10px 0;
+        -webkit-box-shadow: 4px 4px 8px 3px rgba(34, 60, 80, 0.44);
+        -moz-box-shadow: 4px 4px 8px 3px rgba(34, 60, 80, 0.44);
+        box-shadow: 4px 4px 8px 3px rgba(34, 60, 80, 0.44);
     }
     .navbar ul, button {
         display: block;
@@ -112,13 +116,47 @@
     position: relative;
     padding: 0px;
     margin: 0;
-    top: -300px;
+    top: -400px;
 }
+.header__content {
+    padding: 0;
+}
+.wrapper-about {
+    width: 100%;
+    border: none;
+    border-radius: 10px;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px 10px 0px 0px;
+}
+.about-flex img {
+    height: 100%;
+    width: auto;
+    object-fit: cover;
+}
+.about-container {
+    width: 100%;
+    padding: 20px;
+    background-color: #dddddd;
+    border-radius: 0px 0px 10px 10px;
+}
+
+}
+@media screen and (max-width: 700px) {
+    .about-img {
+        width: 300px;
+        
+      }
+
 }
 @media screen and (max-width: 768px) {
     .footer__flex {
         justify-content: center;
         flex-wrap: wrap;
+        display: block;
+        text-align: center;
     }
     .contact__form {
         display: block;
@@ -133,14 +171,55 @@
     .message__form {
         width: 100%; 
     }
-    .message-btn {
-        width: 100%;
-    }
+   
     .form-flex {
         display: block;
        
     }
-}
-@media screen and (max-width: 576px) {
+    .footer__info {
+        margin-top: 30px;
+    }
     
 }
+@media screen and (max-width: 576px) {
+     .message-btn {
+        width: 100%;
+    }
+    a .fa {
+        font-size: 30px;
+        margin-right: 0px;
+    }
+    .swiper {
+        height: 200px;
+      }
+      .header__content {
+        
+        padding-top: 190px;
+    }
+    .wrapper {
+        width: 300px;
+        
+    }
+    .about {
+        padding: 0.5em;
+    }
+    h2 {
+        font-size: 2em;
+    }
+     
+ 
+}
+@media screen and (max-width: 400px) {
+    .title-img {
+        width: 100%;
+    
+    }
+    .title-phone {
+        display: none;
+    }
+    .header__content {
+        
+        padding-top: 350px;
+    }
+}
+

@@ -104,6 +104,7 @@ li {
 .header__info {
     margin-top: 100px;
     background-color: #544e52;
+    height: 645px;
 }
 .header__info-flex {
     display: flex;
@@ -210,6 +211,10 @@ li {
 }
 .portfolio h2 {
    text-align: center;
+   margin-bottom: 30px;
+   margin-top: -20px;
+   font-size: 2em;
+   
 }
 /* about */
 .about {
@@ -219,12 +224,24 @@ li {
     display: flex;
     justify-content: space-between;
 }
-.about-flex img {
-    max-width: 600px;
+.wrapper-about {
+    width: 50%;
+    height: 600px;
+    border: none;
+    border-radius: 10px;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     border-radius: 10px 0px 0px 10px;
+}
+.about-flex img {
+    height: 100%;
+    width: auto;
     object-fit: cover;
 }
 .about-container {
+    width: 50%;
     padding: 20px;
     background-color: #dddddd;
     border-radius: 0px 10px 15px 0px;
