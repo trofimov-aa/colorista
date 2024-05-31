@@ -159,47 +159,49 @@ li {
     flex-wrap: wrap;
     gap: 30px;
 }
-.services-card-one {
+.wrapper {
+    width: 350px;
+    height: 600px;
+    border: none;
+    border-radius: 10px;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.wrapper img {
+    height: 100%;
+    width: auto;
+    object-fit: cover;
+}
+.services-card {
    max-width: 350px; 
    height: 600px;
    border-radius: 10px;
    background-color: #747474;
    text-align: center;
-   background-image: url(/img/1.jpeg);
    background-repeat: no-repeat;
    background-size: cover; 
    background-position-x: center; 
 }
-
-.services-card-two {
-    max-width: 350px; 
-   height: 600px;
-   border-radius: 10px;
-   text-align: center;
-   background-image: url(/img/2.jpg);
-   background-repeat: no-repeat;
-   background-size: cover;
-   background-position-x: center;
-}
-.services-card-three {
-    max-width: 350px; 
-   height: 600px;
-   border-radius: 10px;
-   text-align: center;
-   background-image: url(/img/3.jpg);
-   background-repeat: no-repeat;
-   background-size: cover;
-   
-}
 .services-card-content {
-    margin-top: 370px;
+    position: relative;
+    top: -200px;
     color: #fff;
     background-color: #000000;
     opacity: 0.8;
     padding: 10px 0;
     border-bottom-right-radius: 10px;
     border-bottom-left-radius: 10px;
-    height: 230px;
+    height: 200px;
+}
+.services-card-content h3  {
+    padding: 0;
+    margin: 0;
+}
+.services-card-content p  {
+    padding: 0;
+   
 }
 /* about */
 .about {
