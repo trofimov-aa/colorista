@@ -1,0 +1,146 @@
+@media screen and (max-width: 1200px) {
+    .swiper {
+        height: 400px;
+      }
+      .services-flex {
+        justify-content: center;
+      }
+      .about-img {
+        width: 500px;
+      }
+      h2 {
+        text-align: center;
+        margin: 0.3em 0;
+      }
+      .services {
+        padding: 1em;
+      }
+      .about {
+        padding: 2em;
+      }
+      .footer {
+        padding: 1em;
+      }
+      .contact__flex-questions {
+        text-align: center;
+      }
+      .message-btn {
+        width: 200px;
+        left: 0;
+        display: block;
+        margin: 20px auto 0;
+        
+       
+        
+       
+     
+        text-align: center;
+        
+        
+    }
+}
+
+
+
+@media screen and (max-width: 1024px) {
+    .header {
+        justify-content: space-between;
+    }
+    .navbar {
+        position: absolute;
+        left: -300px;
+        top: 0;
+        background-color: var(--color-accent);
+        color: white;
+        padding: 50px 20px 20px 20px;
+        width: 300px;
+        transition: transform .5s;
+    }
+    .navbar ul, button {
+        display: block;
+    }
+    .header_btn {
+        margin-left: 0px; 
+    }
+    .menu__link {
+        padding: 20px 0;
+        display: block;
+    }
+    .header.open .navbar {
+        transform: translateX(100%);
+    }
+    .header__burger-btn {
+        display: block;
+        margin-top: 5px;
+    }
+    .swiper {
+        height: 300px;
+      }
+      .about-img {
+        width: 400px;
+        
+      }
+}
+@media screen and (max-width: 992px) {
+.about-flex {
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.about-flex img {
+    width: 800px;
+    border-radius: 10px 10px 0px 0px;
+    object-fit: cover;
+}
+.about-container {
+    width: 600px;
+    border-radius: 0px 0px 10px 10px;
+}
+.header__info {
+    background-color: #544e52;
+}
+.header__info-flex {
+    flex-wrap: wrap;
+    justify-content: center;
+    text-align: center;
+}
+.title-img {
+    height: 100%;
+}
+.header__content {
+    color: #ffffff;
+    position: relative;
+    padding: 0px;
+    margin: 0;
+    top: -300px;
+}
+}
+@media screen and (max-width: 768px) {
+    .footer__flex {
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+    .contact__form {
+        display: block;
+        width: 100%;
+    }
+    .name__form {
+        width: 100%;
+    }
+    .email__form {
+        width: 100%;
+    }
+    .message__form {
+        width: 100%; 
+    }
+    .message-btn {
+        width: 100%;
+    }
+    .form-flex {
+        display: block;
+       
+    }
+}
+@media screen and (max-width: 576px) {
+    
+}
