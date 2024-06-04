@@ -90,7 +90,7 @@ const swiper = new Swiper('.swiper', {
     },
     // desktop >= 991
     991: {
-      slidesPerView: 2
+      slidesPerView: 3
     }
   }
  

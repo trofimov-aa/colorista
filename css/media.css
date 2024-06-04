@@ -92,7 +92,7 @@
 
 .about-flex img {
     width: 800px;
-    border-radius: 10px 10px 0px 0px;
+    border-radius: 10px;
     object-fit: cover;
 }
 .about-container {
@@ -150,7 +150,15 @@
     .about-img {
         width: 300px;
       }
-
+      .clippy1 {
+        clip-path: polygon(50% 80%, 100% 60%, 100% 100%, 0 100%, 0 60%);
+        
+       }
+       .clippy2 {
+        clip-path: polygon(50% 20%, 0 0, 100% 0);
+       
+       
+       }
 }
 @media screen and (max-width: 768px) {
     .footer__flex {
@@ -210,27 +218,22 @@
     .contact {
         padding: 1em;
     }
-     
- 
 }
 @media screen and (max-width: 400px) {
     .title-img {
         width: 100%;
-    
     }
     .title-phone {
         display: none;
     }
     .header__content {
-        
         padding-top: 350px;
     }
     .swiper {
         height: 450px;
-      }
-      .portfolio {
+    }
+    .portfolio {
         padding: 3em 0 3em 0;
-       
     }
 }
 

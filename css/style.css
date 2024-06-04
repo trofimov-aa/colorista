@@ -221,11 +221,12 @@ li {
 }
 /* about */
 .about {
-    padding: 3em;
+    padding: 3em 3em 0 3em ;
 }
 .about-flex {
     display: flex;
     justify-content: space-between;
+    
 }
 .wrapper-about {
     width: 50%;
@@ -236,7 +237,7 @@ li {
     display: flex;
     justify-content: center;
     align-items: center;
-    border-radius: 10px 0px 0px 10px;
+    border-radius: 10px;
 }
 .about-flex img {
     height: 100%;
@@ -246,11 +247,13 @@ li {
 .about-container {
     width: 50%;
     padding: 20px;
-    background-color: #dddddd;
-    border-radius: 0px 10px 15px 0px;
+    margin-top: 20px;
+    
+   
 }
 .about-container p {
     text-align: justify;
+   
 }
 .portfolio {
     padding: 3em 0 3em 0;
@@ -471,6 +474,27 @@ a .fa:hover {
     position: relative;
     padding: 20px 0;
   }
+
+  .clippy1 {
+    clip-path: polygon(50% 100%, 100% 50%, 100% 100%, 0 100%, 0 50%);
+    width:100%;
+    height:200px;
+    background:#dddddd;
+    position: relative;
+    top: 3px;
+    margin-top: -50px;
+   }
+   .clippy2 {
+    clip-path: polygon(50% 50%, 0 0, 100% 0);
+    width:100%;
+    height:200px;
+    background:#dddddd;
+    position: relative;
+    top: -2px;
+    margin-bottom: -100px;
+    
+   
+   }
 
 
 
