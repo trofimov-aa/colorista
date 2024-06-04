@@ -50,15 +50,13 @@
         position: absolute;
         left: -310px;
         top: 0;
-        background-color: var(--color-accent);
+        background-color: #70686e;
+        opacity: 0.95;
         color: white;
         padding: 50px 20px 20px 20px;
         width: 300px;
         transition: transform .5s;
         border-radius: 0 10px 10px 0;
-        -webkit-box-shadow: 4px 4px 8px 3px rgba(34, 60, 80, 0.44);
-        -moz-box-shadow: 4px 4px 8px 3px rgba(34, 60, 80, 0.44);
-        box-shadow: 4px 4px 8px 3px rgba(34, 60, 80, 0.44);
     }
     .navbar ul, button {
         display: block;
@@ -75,7 +73,7 @@
     }
     .header__burger-btn {
         display: block;
-        margin-top: 5px;
+        margin-top: 8px;
     }
     .swiper {
         height: 300px;

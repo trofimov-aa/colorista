@@ -35,6 +35,7 @@ body {
     transform: translateY(0);
     opacity: 1;
 }
+
 .swiper {
     width: 100%;
     height: 550px;
@@ -129,7 +130,9 @@ li {
     height: 40px;
     border: none;
     border-radius: 4px;
-    background-color: var(--color-accent);
+    background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+	background-size: 400% 400%;
+	animation: animate_gradient 5s ease infinite;
 }
 .header__burger-btn span {
     position: absolute;
@@ -468,3 +471,8 @@ a .fa:hover {
     position: relative;
     padding: 20px 0;
   }
+
+
+
+
+  

@@ -38,17 +38,29 @@ window.addEventListener('scroll', checkBoxes);
     })
    
 })
-const swiper = new Swiper('.swiper', {
-  // Optional parameters
-  
-  loop: true,
 
-  // If we need pagination
+
+
+const swiper = new Swiper('.swiper', {
+
+  loop: true,
+ 
   effect: 'coverflow',
       grabCursor: true,
       centeredSlides: true,
       slidesPerView: 'auto',
       spaceBetween: 15,
+      // autoplay: {
+      // delay: 2000, 
+      // disableOnInteraction: false,
+      // },
+      zoom: {
+        // maxRatio: 2,
+        // minRatio: 1,
+        limitToOriginalSize: true,
+        zoomedSlideClass: 'swiper-slide-zoomed',
+      },
+      
       coverflowEffect: {
         rotate: 0,
         stretch: 0,
@@ -56,20 +68,21 @@ const swiper = new Swiper('.swiper', {
         modifier: 200,
         slideShadows : true,
       },
+      
   
   watchSlidesProgress: true,
   slidesPerView: 2,
-  spaceBetween: 20,
+  spaceBetween: 0,
   pagination: {
     el: '.swiper-pagination',
     
   },
-
   // Navigation arrows
   navigation: {
     nextEl: '.swiper-button-next',
     prevEl: '.swiper-button-prev',
   },
+  
   breakpoints: {
     // mobile + tablet - 320-990
     320: {
@@ -82,6 +95,15 @@ const swiper = new Swiper('.swiper', {
   }
  
 });
+
+
+
+
+
+
+
+
+
 
 window.addEventListener('keydown', (e) => {
   if (e.key === "Escape") {
