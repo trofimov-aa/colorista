@@ -74,6 +74,7 @@
     .header__burger-btn {
         display: block;
         margin-top: 8px;
+        margin-bottom: 8px;
     }
     .swiper {
         height: 300px;
@@ -143,6 +144,7 @@
 .swiper {
     height: 450px;
   }
+
 }
 @media screen and (max-width: 700px) {
     .about-img {
@@ -224,7 +226,11 @@
         padding-top: 350px;
     }
     .swiper {
-        height: 200px;
+        height: 450px;
       }
+      .portfolio {
+        padding: 3em 0 3em 0;
+       
+    }
 }
 
