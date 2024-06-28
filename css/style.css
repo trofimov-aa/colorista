@@ -1,5 +1,5 @@
 :root {
-    --color-accent: #23a6d5;
+    --color-accent: #e73c7e;
   }
 html {
     box-sizing: border-box;
@@ -130,7 +130,7 @@ li {
     height: 40px;
     border: none;
     border-radius: 4px;
-    background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+    background: linear-gradient(-45deg,  #ee7752, #e73c7e, #23a6d5, #23d5ab);
 	background-size: 400% 400%;
 	animation: animate_gradient 5s ease infinite;
 }
@@ -195,18 +195,19 @@ li {
 }
 .services-card-content {
     position: relative;
-    top: -200px;
+    top: -100px;
     color: #fff;
     background-color: #000000;
     opacity: 0.7;
     padding: 10px 0;
     border-bottom-right-radius: 10px;
     border-bottom-left-radius: 10px;
-    height: 200px;
+    height: 100px;
 }
 .services-card-content h3  {
     padding: 0;
     margin: 0;
+    margin-top: 20px;
 }
 .services-card-content p  {
     padding: 0;
@@ -230,24 +231,26 @@ li {
 }
 .wrapper-about {
     width: 50%;
-    height: 600px;
+    height: 550px;
     border: none;
     border-radius: 10px;
     overflow: hidden;
     display: flex;
     justify-content: center;
     align-items: center;
-    border-radius: 10px;
+    
 }
 .about-flex img {
     height: 100%;
     width: auto;
     object-fit: cover;
+    border-radius: 10px;
 }
 .about-container {
     width: 50%;
     padding: 20px;
     margin-top: 20px;
+    
     
    
 }

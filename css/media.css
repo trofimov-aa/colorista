@@ -90,14 +90,10 @@
     flex-wrap: wrap;
 }
 
-.about-flex img {
-    width: 800px;
-    border-radius: 10px;
-    object-fit: cover;
-}
+
 .about-container {
     width: 600px;
-    border-radius: 0px 0px 10px 10px;
+    
 }
 .header__info {
     background-color: #544e52;
@@ -132,8 +128,7 @@
 }
 .about-flex img {
     height: 100%;
-    width: auto;
-    object-fit: cover;
+    
 }
 .about-container {
     width: 100%;
@@ -211,6 +206,7 @@
     
     .about {
         padding: 0.5em;
+        margin-top: 20px;
     }
     h2 {
         font-size: 1.8em;
@@ -234,6 +230,14 @@
     }
     .portfolio {
         padding: 3em 0 3em 0;
+    }
+    .about-container {
+        
+        padding: 0px;
+      
+        
+        
+       
     }
 }
 
