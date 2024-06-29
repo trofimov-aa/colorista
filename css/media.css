@@ -247,6 +247,10 @@
     .header__info {
         height: 760px;
     }
+    iframe {
+        margin: 10px;
+        width: 280px;
+    }
     
 }
 

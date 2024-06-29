@@ -275,6 +275,17 @@ li {
     padding: 3em 0 3em 0;
     background-color: #dddddd;
 }
+.videoportfolio {
+    margin-top: 50px;
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    justify-content: space-between;
+}
+iframe {
+    border-radius: 10px;
+    margin: 30px;
+}
 /* contact */
 .contact {
     padding: 3em;
