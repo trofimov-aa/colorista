@@ -522,8 +522,38 @@ a .fa:hover {
     
    
    }
+.price__flex {
+    display: flex;
+    flex-wrap: wrap ;
+    justify-content: space-between;
+    
+}
+.price__card {
+    width: 500px;
+    margin-bottom: 30px;
+}
+.price__card p {
+    margin-top: 0;
+    
+}
+.price__card-text {
+    font-size: 14px;
+}
 
-
-
+.price__card-text {
+    display: flex;
+    justify-content: space-between;
+}
+.price-text:after {
+    content: "";
+    display: block;
+    width: 100%;
+    height: 2px;
+    background-color: var(--color-accent);
+    margin-top: 10px;
+}
+.price h2 {
+    text-align: center;
+}
 
   

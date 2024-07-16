@@ -31,6 +31,14 @@
         margin: 20px auto 0;
         text-align: center;
     }
+    .price__card {
+        width: 400px;
+        
+    }
+    .price__flex {
+        
+        
+    }
 }
 
 
@@ -140,6 +148,10 @@
     left: 0;
     margin: 0 auto;
 }
+.price__card {
+    width: 370px;
+    
+}
 
 }
 @media screen and (max-width: 700px) {
@@ -185,8 +197,12 @@
         margin-top: 30px;
     }
     .swiper {
-        height: 350px;
+        height: 400px;
       }
+      .price__card {
+        width: 100%;
+        margin-bottom: 30px;
+    }
     
 }
 @media screen and (max-width: 576px) {
