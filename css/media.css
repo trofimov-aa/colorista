@@ -31,13 +31,40 @@
         margin: 20px auto 0;
         text-align: center;
     }
-    .price__card {
-        width: 400px;
-        
+    
+    
+    .header {
+        justify-content: space-between;
     }
-    .price__flex {
-        
-        
+    .navbar {
+        position: absolute;
+        left: -310px;
+        top: 0;
+        background-color: #70686e;
+        opacity: 0.95;
+        color: white;
+        padding: 50px 20px 20px 20px;
+        width: 300px;
+        transition: transform .5s;
+        border-radius: 0 10px 10px 0;
+    }
+    .navbar ul, button {
+        display: block;
+    }
+    .header_btn {
+        margin-left: 0px; 
+    }
+    .menu__link {
+        padding: 20px 0;
+        display: block;
+    }
+    .header.open .navbar {
+        transform: translateX(100%);
+    }
+    .header__burger-btn {
+        display: block;
+        margin-top: 8px;
+        margin-bottom: 8px;
     }
 }
 
@@ -148,10 +175,7 @@
     left: 0;
     margin: 0 auto;
 }
-.price__card {
-    width: 370px;
-    
-}
+
 
 }
 @media screen and (max-width: 700px) {
@@ -201,7 +225,14 @@
       }
       .price__card {
         width: 100%;
-        margin-bottom: 30px;
+        
+    }
+    .price-line {
+        
+        
+        width: 100%;
+        
+       
     }
     
 }
@@ -238,6 +269,9 @@
     h1 {
         opacity: 0;
     }
+    .price__card p {
+        font-size: 14px;
+    }
     
 }
 @media screen and (max-width: 400px) {
@@ -266,6 +300,9 @@
     iframe {
         margin: 10px;
         width: 280px;
+    }
+    .price__card p {
+        font-size: 13px;
     }
     
 }

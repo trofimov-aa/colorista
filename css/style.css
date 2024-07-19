@@ -1,3 +1,7 @@
+@font-face {
+    font-family: "BrisaSans";
+    src: url(/fonts/BrisaSans-Light.otf);
+}
 :root {
     --color-accent: #e73c7e;
   }
@@ -18,8 +22,8 @@ img {
     
 }
 body {
-    font-family: "Poppins", sans-serif;
-    font-weight: 300;
+    font-family: "BrisaSans", sans-serif;
+    
 }
 .container {
     max-width: 1200px;
@@ -208,14 +212,14 @@ li {
 }
 .services-card-content {
     position: relative;
-    top: -120px;
+    top: -180px;
     color: #fff;
     background-color: #000000;
     opacity: 0.7;
     padding: 10px 0;
     border-bottom-right-radius: 10px;
     border-bottom-left-radius: 10px;
-    height: 120px;
+    height: 180px;
 }
 .services-card-content h3  {
     padding: 0;
@@ -223,7 +227,8 @@ li {
     
 }
 .services-card-content p  {
-    padding: 0;
+    padding: 0 5px;
+    text-align: center;
    
 }
 .portfolio h2 {
@@ -269,6 +274,7 @@ li {
 }
 .about-container p {
     text-align: justify;
+    margin-bottom: 20px;
    
 }
 .portfolio {
@@ -523,37 +529,48 @@ a .fa:hover {
    
    }
 .price__flex {
-    display: flex;
-    flex-wrap: wrap ;
-    justify-content: space-between;
+    display: block;
+    justify-content: center;
+    margin: 0 auto;
+    
+    
     
 }
 .price__card {
-    width: 500px;
-    margin-bottom: 30px;
+    display: flex;
+    justify-content: space-between;
+    width: 600px;
+    
+    margin: 0 auto;
 }
 .price__card p {
-    margin-top: 0;
+    margin-bottom: 5px;
     
 }
 .price__card-text {
     font-size: 14px;
+    
 }
 
 .price__card-text {
     display: flex;
     justify-content: space-between;
 }
-.price-text:after {
+.price-line {
     content: "";
     display: block;
-    width: 100%;
+    width: 600px;
     height: 2px;
     background-color: var(--color-accent);
-    margin-top: 10px;
+    margin: 0 auto 10px;
 }
 .price h2 {
     text-align: center;
+    margin: 40px 0 10px;
+}
+.price-h3 {
+    text-align: center;
+    margin-top: 40px;
 }
 
   
